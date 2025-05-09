@@ -52,10 +52,10 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Email</h4>
                   <a
-                    href="mailto:john.doe@example.com"
+                    href="mailto:namdang089@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    john.doe@example.com
+                    namdang089@gmail.com
                   </a>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const ContactSection = () => {
                     href="tel:+1234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    (123) 456-7890
+                    (+84) 346 803 595
                   </a>
                 </div>
               </div>
@@ -77,7 +77,9 @@ const ContactSection = () => {
                 <MapPin className="text-primary mt-1" size={18} />
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">
+                    Võ Văn Hát, Hồ Chí Minh
+                  </p>
                 </div>
               </div>
 
@@ -85,21 +87,21 @@ const ContactSection = () => {
                 <h4 className="font-medium mb-2">Connect with me</h4>
                 <div className="flex space-x-3">
                   <a
-                    href="#"
+                    href="https://github.com/phgnamm"
                     className="bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors p-2 rounded-full"
                     aria-label="GitHub"
                   >
                     <Github size={18} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-ph%C6%B0%C6%A1ng-nam-730aa5320/"
                     className="bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors p-2 rounded-full"
                     aria-label="LinkedIn"
                   >
                     <Linkedin size={18} />
                   </a>
                   <a
-                    href="mailto:john.doe@example.com"
+                    href="mailto:namdang089@gmail.com"
                     className="bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors p-2 rounded-full"
                     aria-label="Email"
                   >
@@ -132,7 +134,7 @@ const ContactSection = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder="John Smith"
+                    placeholder="Phuong Nam"
                   />
                 </div>
 
@@ -150,7 +152,7 @@ const ContactSection = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="john@example.com"
+                    placeholder="namdang089@gmail.com"
                   />
                 </div>
 

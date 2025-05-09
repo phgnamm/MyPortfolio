@@ -113,9 +113,9 @@ const SkillsSection = () => {
                   <img
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                     className="w-5 h-5 mr-2 opacity-80"
-                    alt="Tailwind CSS"
+                    alt="Tailwind"
                   />
-                  Tailwind CSS
+                  Tailwind
                 </li>
                 <li className="flex items-center">
                   <img

@@ -293,7 +293,7 @@ Hỗ trợ triển khai dashboard cho admin quản lý doanh thu`,
           <div className="whitespace-pre-line">{project.fullDescription}</div>
         </div>
 
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-end mt-8">
           <Button asChild size="lg" className="px-8 border border-border">
             <a
               href={project.github}

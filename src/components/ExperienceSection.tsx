@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Briefcase, Calendar } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
+import { CardContent } from "@/components/ui/card";
 
 const ExperienceSection = () => {
   const experiences = [
@@ -15,7 +16,7 @@ const ExperienceSection = () => {
         "Gained hands-on experience in unit testing to ensure code quality and catch bugs early.",
         "Participated in code reviews, learned to follow best practices and improve coding standards.",
         "Improved teamwork and communication skills through pair programming and daily sync meetings.",
-      ].join(" "),
+      ],
     },
   ];
 
@@ -68,7 +69,14 @@ const ExperienceSection = () => {
                 <div className="bg-card rounded-lg shadow p-5 relative">
                   <div className="mb-2">
                     <h3 className="font-semibold text-lg">{exp.title}</h3>
-                    <p className="text-muted-foreground">{exp.company}</p>
+                    <p className="text-muted-foreground flex items-center gap-2">
+                      {exp.company}
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/FPT_logo_2010.svg/2560px-FPT_logo_2010.svg.png"
+                        alt="FPT Logo"
+                        className="h-4 w-auto opacity-80"
+                      />
+                    </p>
                     <p className="text-sm text-muted-foreground">
                       {exp.location}
                     </p>
@@ -80,7 +88,15 @@ const ExperienceSection = () => {
 
                   <Separator className="my-3" />
 
-                  <p className="text-sm">{exp.description}</p>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      {exp.description.map((desc, index) => (
+                        <li key={index} className="text-sm">
+                          {desc}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
                 </div>
               </div>
             ))}

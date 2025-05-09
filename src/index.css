@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1400px) {
   .container {
-    max-width: 1400px;
+    max-width: 1080px;
   }
 }
 
@@ -235,7 +235,6 @@ h1, h2, h3, h4, h5, h6 {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.8; }
 }
-
 .accordion-down {
   animation: accordion-down 0.2s ease-out;
 }

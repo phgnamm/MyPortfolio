@@ -63,7 +63,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className="py-16 bg-background">
-      <div className="container mx-auto px-4 max-w-5xl">
+      <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="text-2xl font-bold text-center mb-8">My Projects</h2>
 
         <div className="space-y-12">

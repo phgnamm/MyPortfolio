@@ -7,6 +7,10 @@ import polaby1 from "@/assets/images/projects/polaby1.png";
 import polaby2 from "@/assets/images/projects/polaby2.png";
 import polaby3 from "@/assets/images/projects/polaby3.png";
 import polaby4 from "@/assets/images/projects/polaby4.png";
+import podbooking1 from "@/assets/images/projects/podbooking1.jpg";
+import podbooking2 from "@/assets/images/projects/podbooking2.jpg";
+import podbooking3 from "@/assets/images/projects/podbooking3.jpg";
+import podbooking4 from "@/assets/images/projects/podbooking4.jpg";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -17,69 +21,84 @@ const ProjectDetail = () => {
   const projectsData = [
     {
       id: "personal-finance-manager",
-      title:
-        "POD Booking Platform – Không Gian Làm Việc Linh Hoạt Cho Thế Hệ Mới",
+      title: "POD Booking Platform – Book Your Workspace by the Hour",
       description:
-        "A full-stack web application for tracking personal expenses, creating budgets, and visualizing spending patterns with interactive charts.",
-      fullDescription: `Trong thời đại làm việc linh hoạt và tự do, nhu cầu về các không gian làm việc theo giờ đang trở nên phổ biến hơn bao giờ hết. Với mục tiêu giải quyết bài toán này, nhóm chúng tôi đã phát triển POD Booking Platform – một nền tảng web cho phép người dùng dễ dàng đặt chỗ làm việc (POD) theo giờ tại nhiều địa điểm khác nhau.
+        "POD Booking Platform is a web-based application that enables users to search and book private workspaces (PODs) by the hour. Designed for freelancers, students, and small teams, the platform offers a seamless and efficient booking experience with integrated payment, smart scheduling, and administrative tools for managing operations across multiple locations.",
+      fullDescription: `POD Booking Platform – Book Your Workspace by the Hour
+Overview:
+POD Booking Platform is a web-based application that enables users to search and book private workspaces (PODs) by the hour. Designed for freelancers, students, and small teams, the platform offers a seamless and efficient booking experience with integrated payment, smart scheduling, and administrative tools for managing operations across multiple locations.
 
-🎯 Mục tiêu dự án
-Dự án hướng đến việc mang lại sự tiện lợi tối đa cho người dùng là freelancer, sinh viên, nhóm startup nhỏ… trong việc tìm kiếm, đặt chỗ và sử dụng các không gian làm việc hiện đại, riêng tư. Đồng thời, nền tảng cũng hỗ trợ nhà quản lý dễ dàng vận hành hệ thống PODs hiệu quả.
+🔑 Key Features
+🕐 Real-Time Booking: Users can check availability and book pods instantly.
 
-🔍 Các tính năng nổi bật
-Đặt chỗ nhanh chóng: Người dùng có thể tìm kiếm, chọn và đặt chỗ làm việc theo thời gian thực, kèm dịch vụ bổ sung như nước uống, máy in, v.v.
+💳 VNPAY Payment Integration: Secure online transactions through VNPAY.
 
-Thanh toán trực tuyến: Tích hợp cổng thanh toán VNPAY giúp giao dịch an toàn, tiện lợi.
+👤 User Account Management: Update personal info, view booking history, and submit feedback.
 
-Quản lý tài khoản: Người dùng có thể chỉnh sửa hồ sơ cá nhân, theo dõi lịch sử đặt chỗ, gửi phản hồi sau khi sử dụng dịch vụ.
+📊 Role-Based Dashboards:
 
-Hệ thống quản trị: Admin, Manager và Nhân viên được cung cấp công cụ quản lý lịch đặt, báo cáo doanh thu và phân tích dữ liệu sử dụng.
+Admin: Full access to manage users, locations, services, and view reports.
 
-Phân quyền rõ ràng: Hệ thống phân chia vai trò giúp đảm bảo hiệu quả quản lý và bảo mật thông tin.
+Manager: Monitor specific locations and revenue performance.
 
-🛠️ Công nghệ sử dụng
+Staff: Handle pods, services, and local operations.
+
+Customer: Book rooms, pay, and manage their experience.
+
+🔔 Notification System: Automatic reminders for bookings and feedback.
+
+🔐 Authentication & Authorization: Login secured with JWT, user roles enforced.
+
+⚙️ Background Services: Process periodic tasks like reminders and system events.
+
+🛠️ Tech Stack
 Frontend: ReactJS
 
-Backend: .NET Core
+Backend: ASP.NET Core Web API
 
-Cơ sở dữ liệu: PostgreSQL
+Database: SQL Server
 
-Thanh toán: Tích hợp VNPAY
+Authentication: JWT
 
-Quản lý công việc: Jira (theo mô hình Scrum)
+Cloud Deployment: Microsoft Azure (App Service + Azure SQL)
 
-Thiết kế UI: Figma
+Project Management: Jira, Scrum methodology
 
-📌 Những gì tôi đã thực hiện
-Trong dự án này, tôi đảm nhiệm vai trò Backend Developer, với các nhiệm vụ cụ thể như:
+Design: Figma (screen flow & UI sketches)
 
-Thiết kế và xây dựng cơ sở dữ liệu
+👨‍💻 My Contributions
+As the Team Leader and Fullstack Developer, I was responsible for:
 
-Triển khai các tính năng core như đặt chỗ, quản lý người dùng, quản lý dịch vụ đi kèm
+📐 Designing the system architecture using the 3-tier model and SOLID principles
 
-Tích hợp thanh toán qua VNPAY
+🧱 Building the relational database schema for bookings, users, services, and locations
 
-Viết unit test cho các chức năng chính
+🔧 Implementing core backend features: authentication, booking flow, payment, admin controls
 
-Hỗ trợ viết tài liệu SRS và báo cáo system test
+🔁 Creating background services using hosted services for automatic task handling
 
-Hỗ trợ triển khai dashboard cho admin quản lý doanh thu`,
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-      github: "https://github.com/username/finance-manager",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+💬 Integrating role-based access control and feedback handling
+
+☁️ Deploying backend and database to Microsoft Azure
+
+📋 Writing unit tests, reviewing code, and delivering SRS & test reports
+
+🧩 Leading the team with Scrum practices, task planning via Jira, and daily standups`,
+      technologies: ["ReactJS", ".NET", "SQL Server", "Firebase"],
+      github: "https://github.com/phgnamm/PODBooking",
+      image: podbooking1,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1554224155-8d04cb21eb6c?q=80&w=1936&auto=format&fit=crop",
-          caption: "Dashboard view showing monthly expense breakdown",
+          url: podbooking2,
+          caption: "Booking interface on tablet device",
         },
         {
-          url: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=1740&auto=format&fit=crop",
-          caption: "Budget creation interface with category selection",
+          url: podbooking3,
+          caption: "Pod selection and workspace overview",
         },
         {
-          url: "https://images.unsplash.com/photo-1563986768711-b3bde86b7053?q=80&w=1740&auto=format&fit=crop",
-          caption: "Interactive charts displaying spending patterns over time",
+          url: podbooking4,
+          caption: "Admin dashboard and analytics",
         },
       ],
       features: [
@@ -179,14 +198,6 @@ Key Features:
           url: polaby4,
           caption: "Detailed forecast view with humidity and wind information",
         },
-      ],
-      features: [
-        "Real-time weather data from multiple sources",
-        "Location-based automatic weather detection",
-        "Interactive weather maps with multiple layers",
-        "7-day and hourly forecasts",
-        "Severe weather alerts and notifications",
-        "Weather history and trends",
       ],
     },
     {

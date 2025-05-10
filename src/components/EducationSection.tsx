@@ -5,11 +5,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const EducationSection = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Information Technology",
-      institution: "Tech University",
-      period: "2021 - Present",
+      degree: "Bachelor of Science in Software Engineering",
+      institution: "FPT University",
+      period: "2021 – 2025",
       description:
-        "Specialization in Software Development and Network Management. Currently maintaining a GPA of 3.8/4.0.",
+        "Specializing in software development with coursework in web technologies, databases, and software architecture. Currently maintaining a GPA of 3.0/4.0.",
     },
   ];
 

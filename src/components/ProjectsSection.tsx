@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import polapyoverview from "@/assets/images/projects/polapyoverview.png";
+import podoverview from "@/assets/images/projects/podoverview.png";
 
 const projects = [
   {
     id: "personal-finance-manager",
-    title: "Personal Finance Manager",
+    title: "POD Booking Platform – Workspace Reservation App",
     description:
-      "A full-stack web application for tracking personal expenses, creating budgets, and visualizing spending patterns with interactive charts.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
-    technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-    github: "https://github.com/phgnamm/Polaby-App",
+      "A web application that enables users to book hourly working pods, manage bookings and payments via VNPAY, and access personalized dashboards for customers, staff, managers, and admins — all in one seamless platform for flexible workspaces.",
+    image: podoverview,
+    technologies: ["ReactJS", ".NET", "SQL Server", "Firebase"],
+    github: "https://github.com/phgnamm/PODBooking",
   },
   {
     id: "weather-dashboard",

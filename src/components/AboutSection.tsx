@@ -61,19 +61,24 @@ const AboutSection = () => {
                 <p className="text-muted-foreground mb-2 font-worksans">
                   B.S. Information Technology
                 </p>
-                <p className="text-muted-foreground mb-4 font-worksans">
+                <p className="text-muted-foreground mb-4 font-worksans flex items-center gap-2">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/FPT_logo_2010.svg/2560px-FPT_logo_2010.svg.png"
+                    alt="FPT Logo"
+                    className="w-6 h-6 object-contain"
+                  />
                   FPT University
                 </p>
 
                 <div className="space-y-3 font-worksans">
                   <p>
-                    👋 Hi, I’m Phuong Nam I’m a recent graduate in Software
+                    👋 Hi, I'm Phuong Nam I'm a recent graduate in Software
                     Engineering from FPT University. I have a strong interest in
                     both coding and UI/UX design, and enjoy creating intuitive,
                     user-friendly applications.
                   </p>
                   <p>
-                    💡 I’m not just focused on code—I’m passionate about
+                    💡 I'm not just focused on code—I'm passionate about
                     analyzing requirements, reading technical docs, and thinking
                     through real user needs. I also enjoy using Figma and
                     collaborating with teams using Jira and Agile methods.
@@ -81,7 +86,7 @@ const AboutSection = () => {
                   <p>
                     🚀 My goal is to become a full-stack developer who not only
                     builds software, but also understands the bigger picture.
-                    I’m eager to learn new technologies and grow in both
+                    I'm eager to learn new technologies and grow in both
                     development and product thinking.
                   </p>
                 </div>

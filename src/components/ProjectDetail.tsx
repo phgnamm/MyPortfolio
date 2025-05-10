@@ -3,6 +3,10 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import polaby1 from "@/assets/images/projects/polaby1.png";
+import polaby2 from "@/assets/images/projects/polaby2.png";
+import polaby3 from "@/assets/images/projects/polaby3.png";
+import polaby4 from "@/assets/images/projects/polaby4.png";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -124,27 +128,55 @@ Hỗ trợ triển khai dashboard cho admin quản lý doanh thu`,
     },
     {
       id: "weather-dashboard",
-      title: "Weather Dashboard",
+      title: "Polaby - Comprehensive Platform for Expectant Mothers",
       description:
-        "A responsive weather application that provides current conditions and forecasts for any location with interactive maps.",
-      fullDescription:
-        "The Weather Dashboard application offers comprehensive weather information from around the world. Users can check current conditions, hourly and daily forecasts, and view interactive weather maps with various data layers. The application emphasizes clean design and intuitive user experience.",
-      technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
-      github: "https://github.com/username/weather-app",
-      image:
-        "https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&w=1974&auto=format&fit=crop",
+        "A specialized platform providing comprehensive support, resources, and community for expectant mothers throughout their pregnancy journey.",
+      fullDescription: `📱 Polaby – Make the Best Mommy Adventure
+
+Project Name & Logo Meaning:
+Polaby stands for Polar Bear Baby – symbolizing warmth, protection, and the unconditional love of a mother. The logo features a baby polar bear embraced by its mother, using soft white and pink tones. White represents pure maternal affection, while pink reflects the target audience: women, especially expectant mothers.
+Slogan: "Make the Best Mommy Adventure" – expressing the core value of supporting Vietnamese women on their motherhood journey.
+
+💡 What Polaby Offers
+Polaby is a mobile app designed to support and empower mothers during pregnancy and beyond through practical tools and emotional connection.
+
+Key Features:
+
+👤 Personal Profile Management: Allows users to create accounts and provide personal health data (age, height, weight, due date).
+
+🩺 Health Tracking: Record and monitor pregnancy-related health data with scheduled updates and reminders.
+
+🔔 Smart Notifications: Reminders for checkups, important milestones, and daily activities.
+
+🥗 Nutrition Guidance: Personalized meal suggestions based on caloric needs, with lists of recommended and restricted foods, including supplement advice.
+
+📚 Educational Resources: Articles, guides, and advice about pregnancy, childbirth, and postpartum care.
+
+📅 Timeline & To-Do Lists: Highlights key pregnancy milestones and preparation tasks before and after delivery.
+
+💬 Community Support: In-app forum for moms to share experiences, ask questions, and support one another.`,
+      technologies: [
+        "ReactJS",
+        "Flutter",
+        ".NET",
+        "SQL Server",
+        "PayOS",
+        "Firebase",
+      ],
+      github: "https://github.com/phgnamm/Polaby-App",
+      image: polaby1,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1580193769210-b8d1c049a7ef?q=80&w=1974&auto=format&fit=crop",
+          url: polaby2,
           caption:
             "Main dashboard showing current conditions and forecast overview",
         },
         {
-          url: "https://images.unsplash.com/photo-1532978379173-523e16400f91?q=80&w=1740&auto=format&fit=crop",
+          url: polaby3,
           caption: "Interactive weather map with temperature overlay",
         },
         {
-          url: "https://images.unsplash.com/photo-1527482797697-8795b05a13fe?q=80&w=1974&auto=format&fit=crop",
+          url: polaby4,
           caption: "Detailed forecast view with humidity and wind information",
         },
       ],

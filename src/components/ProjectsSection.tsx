@@ -3,6 +3,7 @@ import { Github } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import polapyoverview from "@/assets/images/projects/polapyoverview.png";
 
 const projects = [
   {
@@ -13,17 +14,23 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
     technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-    github: "#",
+    github: "https://github.com/phgnamm/Polaby-App",
   },
   {
     id: "weather-dashboard",
-    title: "Weather Dashboard",
+    title: "Polaby - Comprehensive Platform for Expectant Mothers",
     description:
-      "A responsive weather application that provides current conditions and forecasts for any location with interactive maps.",
-    image:
-      "https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&w=1974&auto=format&fit=crop",
-    technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
-    github: "#",
+      "A specialized platform providing comprehensive support, resources, and community for expectant mothers throughout their pregnancy journey.",
+    image: polapyoverview,
+    technologies: [
+      "ReactJS",
+      "Flutter",
+      ".NET",
+      "SQL Server",
+      "PayOS",
+      "Firebase",
+    ],
+    github: "https://github.com/phgnamm/Polaby-App",
   },
   {
     id: "task-management-system",
@@ -33,7 +40,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
     technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
-    github: "#",
+    github: "https://github.com/phgnamm/Polaby-App",
   },
 ];
 

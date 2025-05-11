@@ -15,7 +15,6 @@ import cap2 from "@/assets/images/projects/cap2.jpg";
 import cap3 from "@/assets/images/projects/cap3.jpg";
 import cap4 from "@/assets/images/projects/cap4.jpg";
 import cap5 from "@/assets/images/projects/cap5.jpg";
-import { url } from "inspector";
 
 const ProjectDetail = () => {
   const { id } = useParams();

@@ -11,6 +11,11 @@ import podbooking1 from "@/assets/images/projects/podbooking1.jpg";
 import podbooking2 from "@/assets/images/projects/podbooking2.jpg";
 import podbooking3 from "@/assets/images/projects/podbooking3.jpg";
 import podbooking4 from "@/assets/images/projects/podbooking4.jpg";
+import cap2 from "@/assets/images/projects/cap2.jpg";
+import cap3 from "@/assets/images/projects/cap3.jpg";
+import cap4 from "@/assets/images/projects/cap4.jpg";
+import cap5 from "@/assets/images/projects/cap5.jpg";
+import { url } from "inspector";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -112,29 +117,88 @@ As the Team Leader and Fullstack Developer, I was responsible for:
     },
     {
       id: "task-management-system",
-      title: "Task Management System",
+      title: "Chillde – On-Demand Handmade Creations Platform",
       description:
-        "A collaborative task management application with real-time updates, user authentication, and team management features.",
-      fullDescription:
-        "The Task Management System is designed to streamline team collaboration and project management. With features like real-time updates, comprehensive task organization, and team communication tools, it helps teams stay organized and productive regardless of their physical location.",
-      technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
+        "Chillde is a full-stack web platform that connects customers with artisans for custom handmade products...",
+      fullDescription: `🎨 Chillde – On-Demand Handmade Creations Platform
+Capstone Project | FPT University
+
+Overview:
+Chillde is a full-stack web platform that connects customers with artisans for custom handmade products. It solves key problems in the personalization market by offering a transparent and efficient workflow for custom orders, artist discovery, real-time tracking, and dispute resolution.
+
+🔑 Key Features
+🛒 Custom Ordering Flow: Customers can explore services, order packages, and track progress through sketch and delivery stages.
+
+🔁 Request & Offer System: Users can post custom requests and receive multiple offers from artisans.
+
+🧑‍🎨 Artisan Tools: Artisans can set up profiles, manage services, offers, and delivery stages.
+
+⚖️ Reporting & Refunds: Built-in dispute handling and refund process for unsatisfactory deliveries.
+
+⚙️ Admin Panel: Admin can manage all users, services, reports, and system configurations.
+
+📲 User Scenarios (Highlights)
+Browse & Book: Customer signs in, finds services, and places orders with specific requirements.
+
+Order Tracking: Customers review sketches and final products before accepting.
+
+Dispute Management: Customers can report bad orders; admin investigates and processes refunds.
+
+Open Marketplace: Customers create public requests; artisans submit offers.
+
+Private Request: Customers directly contact a chosen artisan to request a custom offer.
+
+Seller Mode: Artisans manage their profiles, services, offers, and conversations.
+
+System Management: Admin dashboard for full control over the system.
+
+🛠️ Tech Stack
+Frontend: Next.js (with Vite), TypeScript
+
+Backend: ASP.NET Core
+
+Database: PostgreSQL
+
+Real-Time: SignalR for notifications and live updates
+
+Cache: Redis
+
+Search Engine: Elasticsearch
+
+AI Integration: OpenAI (for content suggestion or automation)
+
+Image Hosting: Cloudinary, Supabase
+
+👨‍💻 My Contributions
+Designed the relational database schema and mapped key business entities
+
+Implemented features for category management, address system, shipment & report modules
+
+Developed background services for tracking and status updates using Redis
+
+Integrated GHTK shipping API into the order flow
+
+Wrote documentation including SRS, unit test reports, and system test reports
+
+Created class diagrams and collaborated in Scrum sprints using Jira`,
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "ASP.NET Core",
+        "PostgreSQL",
+        "SignalR",
+        "Redis",
+        "Elasticsearch",
+        "OpenAI",
+        "Cloudinary",
+        "Supabase",
+      ],
       github: "https://github.com/username/task-manager",
-      image:
-        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
+      image: cap5,
       images: [
-        {
-          url: "https://images.unsplash.com/photo-1540349220179-09d3866f2e74?q=80&w=1740&auto=format&fit=crop",
-          caption: "Project dashboard with task overview and team progress",
-        },
-        {
-          url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1740&auto=format&fit=crop",
-          caption: "Task creation modal with priority and assignment options",
-        },
-        {
-          url: "https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?q=80&w=1740&auto=format&fit=crop",
-          caption:
-            "Real-time team collaboration interface with commenting system",
-        },
+        { url: cap2, caption: "Homepage and search interface" },
+        { url: cap3, caption: "Category and product listing" },
+        { url: cap4, caption: "Order flow and artisan profile" },
       ],
       features: [
         "Drag-and-drop task organization",

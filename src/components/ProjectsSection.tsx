@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import polapyoverview from "@/assets/images/projects/polapyoverview.png";
 import podoverview from "@/assets/images/projects/podoverview.png";
+import cap1 from "@/assets/images/projects/cap1.jpg";
 
 const projects = [
   {
@@ -34,12 +35,22 @@ const projects = [
   },
   {
     id: "task-management-system",
-    title: "Task Manager App",
+    title: "Chillde – On-Demand Handmade Creations Platform",
     description:
-      "A productivity application that helps users organize their tasks, set priorities, and track progress with customizable features.",
-    image:
-      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
+      "Chillde is a full-stack web platform that connects customers with artisans for custom handmade products...",
+    image: cap1,
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "ASP.NET Core",
+      "PostgreSQL",
+      "SignalR",
+      "Redis",
+      "Elasticsearch",
+      "OpenAI",
+      "Cloudinary",
+      "Supabase",
+    ],
     github: "https://github.com/phgnamm/Polaby-App",
   },
 ];

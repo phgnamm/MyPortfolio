@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Calendar, Award } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import coursera from "@/assets/images/educations/coursera_certification.png";
 
 const EducationSection = () => {
   const education = [
@@ -15,33 +16,33 @@ const EducationSection = () => {
 
   const certifications = [
     {
-      name: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "April 2023",
-      expires: "April 2026",
-      icon: "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png",
+      name: "User Experience Researchand Design",
+      issuer: "Coursera",
+      date: "March 2024",
+      expires: "June 2024",
+      icon: coursera,
     },
     {
-      name: "Google IT Support Professional",
-      issuer: "Google",
-      date: "January 2022",
-      expires: "N/A",
-      icon: "https://www.gstatic.com/training/certification_professional_badge.png",
+      name: "Software Development Lifecycle",
+      issuer: "Coursera",
+      date: "March 2023",
+      expires: "July 2023",
+      icon: coursera,
     },
-    {
-      name: "Microsoft Azure Fundamentals (AZ-900)",
-      issuer: "Microsoft",
-      date: "August 2023",
-      expires: "N/A",
-      icon: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
-    },
-    {
-      name: "Responsive Web Design",
-      issuer: "freeCodeCamp",
-      date: "June 2021",
-      expires: "N/A",
-      icon: "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg",
-    },
+    // {
+    //   name: "Microsoft Azure Fundamentals (AZ-900)",
+    //   issuer: "Microsoft",
+    //   date: "August 2023",
+    //   expires: "N/A",
+    //   icon: coursera,
+    // },
+    // {
+    //   name: "Responsive Web Design",
+    //   issuer: "freeCodeCamp",
+    //   date: "June 2021",
+    //   expires: "N/A",
+    //   icon: "Null",
+    // },
   ];
 
   useEffect(() => {

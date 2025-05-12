@@ -59,7 +59,7 @@ const AboutSection = () => {
                   Phuong Nam
                 </h3>
                 <p className="text-muted-foreground mb-2 font-worksans">
-                  B.S. Information Technology
+                  🧑‍💻 B.S. Information Technology
                 </p>
                 <p className="text-muted-foreground mb-4 font-worksans flex items-center gap-2">
                   <img

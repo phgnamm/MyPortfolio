@@ -191,7 +191,7 @@ Created class diagrams and collaborated in Scrum sprints using Jira`,
         "Cloudinary",
         "Supabase",
       ],
-      github: "https://gitlab.com/vanhaitsu/chillde-api",
+      github: "https://github.com/phgnamm/chillde_capstone_project",
       image: cap5,
       images: [
         { url: cap2, caption: "Homepage and search interface" },

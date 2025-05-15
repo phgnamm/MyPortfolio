@@ -51,7 +51,7 @@ const projects = [
       "Cloudinary",
       "Supabase",
     ],
-    github: "https://github.com/phgnamm/Polaby-App",
+    github: "https://gitlab.com/vanhaitsu/chillde-api",
   },
 ];
 

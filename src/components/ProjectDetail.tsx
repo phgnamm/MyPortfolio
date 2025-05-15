@@ -15,7 +15,6 @@ import cap2 from "@/assets/images/projects/cap2.jpg";
 import cap3 from "@/assets/images/projects/cap3.jpg";
 import cap4 from "@/assets/images/projects/cap4.jpg";
 import cap5 from "@/assets/images/projects/cap5.jpg";
-
 const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -192,7 +191,7 @@ Created class diagrams and collaborated in Scrum sprints using Jira`,
         "Cloudinary",
         "Supabase",
       ],
-      github: "https://github.com/username/task-manager",
+      github: "https://gitlab.com/vanhaitsu/chillde-api",
       image: cap5,
       images: [
         { url: cap2, caption: "Homepage and search interface" },
